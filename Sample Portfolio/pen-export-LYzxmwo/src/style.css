@@ -1,0 +1,47 @@
+#welcome-section{
+  background-color: lightblue;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 50vh 0vh 20vh 0vh;
+  font-weight: bold;
+  height: 100vh;
+  justify-content: center;
+}
+
+h3{
+  text-align: center;
+  font-family: sans-serif;
+  padding: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+#projects{
+  
+}
+
+#project-tile{
+  display: inline-block;
+  left: 0px;
+  padding: 20px;
+}
+
+#border{
+  border-style: solid;
+  border-color: lightblue;
+  border-width: 3px;
+}
+
+#navbar{
+  font-family: sans-serif;
+  font-weight: bold;
+  display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+    column-gap: 2em;
+}
+@media only screen and (max-width: 600px) {
+  #project-tile {
+   padding: 0px;
+  }

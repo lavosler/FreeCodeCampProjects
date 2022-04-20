@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Ike&#39;s Survey</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body id="title">
+  <h1>Please Rate Ike's Cuteness</h1><br>
+    <p id="description">We all know that Ike is the supreme puppy dog, but how cute do you think he really is? Please enter your thoughts below.
+    </p>
+  <p>Placeholder text.</p>
+  <form action="/action_page.php" method="get" id="surveyform">
+  <label for="name-label" id="name-label">Name:</label>
+  <input type="text" id="name" name="fname"><br>
+  <p>Placeholder text.</p>
+  <label for="email-label" id="email-label">Email:</label>
+  <input type="email" id="email" name="fname" required><br>
+  <p>Placeholder text.</p>
+  <label for="number-label" id="number-label">Rate Ike's Cuteness:</label>
+  <input type="number" id="number" name="number"  min="99" max="100" required> <br>
+  <p>Placeholder text.</p>
+  <label for="dropdown-label" id="dropdown-label">Select your favorite Characteristic of Ike:</label>
+  <select id="dropdown" name="dropdown"required>
+  <option value="His Wrinkles">His Wrinkles</option>
+  <option value="His Butt Wiggle">His Butt Wiggle</option>
+  <option value="His Personality">His Personality</option>
+  <option value="His Toots">His Toots</option>
+    </select>
+    <br>
+    <br>
+ <p>Placeholder text.</p>
+  <label for="radiobutton" id="radiobutton">Are you interested in purchasing one of Ike's puppies?</label>
+    <input type="radio" id="radio" name="radio">
+    <label for="radio">Yes</label>
+    <input type="radio" id="radio" name="radio" required>
+    <label for="radio">No</label><br><br>
+   <p>Please select the maximum you would pay for one of Ike's puppies.</p>
+  <label for="radiobutton" id="radiobutton">How much would you pay for a pup?</label>
+    <input type="checkbox" id="checkbox" name="checkbox">
+    <label for="checkbox">$100</label>
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">$500</label>
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">$1000</label>
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">$2500</label>
+    <input type="checkbox" id="checkbox" name="checkbox" required>
+    <label for="checkbox">$5000</label><br>
+   <p>Please add any additional comments below.</p>
+  <label for="Comments" id="Comments">Comments:</label>
+    <textarea rows="5" cols="78" name="comment_section"></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+<!-- partial -->
+  
+</body>
+</html>

@@ -1,0 +1,37 @@
+#main-doc{
+  
+}
+
+main{
+  align-items: center;
+ 
+}
+
+.main-section{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#navbar{
+ position:fixed;
+  height: 100%;
+  top:0;
+  left:0;
+  overflow: hidden;
+  list-style-type:none;
+}
+
+#navbar a {
+    display: block;
+    text-align: left;
+    padding: 15px 0px 15px 0px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    list-style-type:none;
+}
+
+@media only screen and (max-width: 768px){
+  width: 100%;
+}
